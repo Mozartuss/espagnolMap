@@ -216,7 +216,7 @@
             scope: 'world',
             element: this.$container.get(0),
             projection: 'mercator',
-            dataUrl: 'data/spanish.json',
+            dataUrl: 'data/data.json',
             dataType: 'json',
             data: {},
             fills: {
@@ -282,7 +282,7 @@
     function getInfo(country) {
         switch (country) {
             case "Ecuador":
-                return ("<b>" + country + "</b> <br><br> <audio controls> <source src=\"dialectAudio/Ecuador.mp3\" type=\"audio/mp3\"></audio> <br><br> <b>¡Hola! ¿Qué tal Sujeto? Asómate ahora, a eso de la una de la tarde, para pegarnos unos cangregitos... Tráete un vinito porque va a estar aquí tu amor. Bueno, chao.</b>");
+                return ("<b>" + country + "</b> <br><br> <audio controls> <source src=\"data/dialectAudio/Ecuador.mp3\" type=\"audio/mp3\"></audio> <br><br> <b>¡Hola! ¿Qué tal Sujeto? Asómate ahora, a eso de la una de la tarde, para pegarnos unos cangregitos... Tráete un vinito porque va a estar aquí tu amor. Bueno, chao.</b>");
             default:
                 return ("<b>" + country + "</b>");
 
