@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/splide.min.css">
     <meta charset="UTF-8">
     <title>Spanish countries</title>
 </head>
@@ -11,6 +12,9 @@
 <script src="js/datamaps.world.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
         crossorigin="anonymous" type="text/javascript"></script>
+<script src="./data/data.js" type="text/javascript"></script>
+<script src="js/splide.min.js"></script>
+
 
 <div style="width: 100%">
     <h1 class="center-text">Spanisch Karte</h1>
@@ -25,10 +29,14 @@
 <div>
     <h3 id="content" class="center-text"></h3>
 </div>
-<div id="zoom-info"></div>
 
 <script>
-    const isos = ["ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "URY", "VEN", "ESP"];
+    const isos = ["ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "URY", "VEN", "ESP", "BLZ", "BRA", "USA", "DEU"];
+    const fills = {
+        defaultFill: "#374140",
+        highlighted: "#FF3B30",
+        second: "#FF9500"
+    }
 
     function Zoom(args) {
         $.extend(this, {
@@ -219,15 +227,12 @@
             dataUrl: 'data/data.json',
             dataType: 'json',
             data: {},
-            fills: {
-                defaultFill: "#374140",
-                highlighted: "#DC3522"
-            },
+            fills: fills,
             done: this._handleMapReady.bind(this),
             geographyConfig: {
                 highlightOnHover: true,
                 highlightFillColor: function (geography) {
-                    return hex2rgba(geography['fillKey'] ? "#DC3522" : undefined, .5) || "#374140";
+                    return hex2rgba(geography['fillKey'] ? fills[geography['fillKey']] : undefined, .5) || "#374140";
                 },
                 highlightBorderColor: 'fff',
                 highlightBorderWidth: 1,
@@ -252,6 +257,7 @@
     Datamap.prototype._handleMapReady = function (datamap) {
         datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
             console.log(geography)
+
             if (isos.includes(geography.id)) {
                 let name = geography.properties.name;
                 if (geography.properties.name.indexOf(',') > -1) {
@@ -259,36 +265,77 @@
                     name = str[1] + " " + str[0]
                 }
                 if ($("#box #info").length > 0) {
-                    $('#country-info').html(getInfo(name));
+                    $('#country-info').html(getInfo(name, geography.id));
+                    new Splide('#image-slider', {
+                        'autoplay': true,
+                        'lazyLoad': true,
+
+                    }).mount()
+
                 } else {
                     $('#box').append("<div id='info' class=\"column\" style=\" width: 33vw; float: left\">\n" +
-                        "        <h1 class=\"center-text\">Infos</h1>\n" +
-                        "<div id='country-info' class='center-text'>" + getInfo(name) + "</div> " +
+                        "<div id='country-info' class='center-text'>" + getInfo(name, geography.id) + "</div> " +
                         "    </div>");
                     $('#card').css({"float": "left"});
+
+                    new Splide('#image-slider', {
+                        'autoplay': true,
+                        'lazyLoad': true,
+                    }).mount()
                 }
+
             } else {
                 $('#info').remove();
                 $('#card').css("float", "")
             }
+
+
         });
 
         this.zoom = new Zoom({
             $container: this.$container,
             datamap: datamap
         });
+
+
     }
 
-    function getInfo(country) {
-        switch (country) {
-            case "Ecuador":
-                return ("<b>" + country + "</b> <br><br> <audio controls> <source src=\"data/dialectAudio/Ecuador.mp3\" type=\"audio/mp3\"></audio> <br><br> <b>¡Hola! ¿Qué tal Sujeto? Asómate ahora, a eso de la una de la tarde, para pegarnos unos cangregitos... Tráete un vinito porque va a estar aquí tu amor. Bueno, chao.</b>");
-            default:
-                return ("<b>" + country + "</b>");
+    function getInfo(country, id) {
+        const name = jsonData[id]["Name"]
+        const flag = jsonData[id]["Country_flag"].split("_")[1]
+        const audio = jsonData[id]["Audio"]
+        const transcript = jsonData[id]["Transcript"]
+        const images = jsonData[id]["Image"]
+        const languages = jsonData[id]["languages"]
+        const culture = jsonData[id]["culture"]
+        const famous = jsonData[id]["Famous_people"]
 
+
+        const audioPlayer = audio ? `<audio controls> <source src="./data/dialectAudio/${audio}" type="audio/mp3"></audio> <br><br> <b>${transcript}</b>` : ""
+
+        const languagesInfo = languages ? `<h3>Sprache</h3> <b>${languages}</b>` : ""
+
+        const culureInfo = culture ? `<h3>Kultur</h3> <b>${culture}</b>` : ""
+
+        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> <b>${famous}</b>` : ""
+
+        const imageGallery = images && Array.isArray(images)? `<div id="image-slider" class="splide"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : ""
+
+        return (`<h1>${name}</h1> <img src = "./data/Flag/${flag}.png" alt = "" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery}`);
+
+    }
+
+    function getImages(images) {
+        let imageString = ""
+        if (Array.isArray(images)) {
+            images.forEach((item) => {
+                imageString += `<li class="splide__slide" ><img src="./data/Image/${item}" ></li>`
+
+            })
         }
-
+        return imageString
     }
+
 
     new Datamap();
 </script>
