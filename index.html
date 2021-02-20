@@ -274,7 +274,7 @@
 
                 } else {
                     $('#box').append("<div id='info' class=\"column\" style=\" width: 33vw; float: left\">\n" +
-                        "<div id='country-info' class='center-text'>" + getInfo(name, geography.id) + "</div> " +
+                        "<div id='country-info' >" + getInfo(name, geography.id) + "</div> " +
                         "    </div>");
                     $('#card').css({"float": "left"});
 
@@ -321,7 +321,7 @@
 
         const imageGallery = images && Array.isArray(images)? `<div id="image-slider" class="splide"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : ""
 
-        return (`<h1>${name}</h1> <img src = "./data/Flag/${flag}.png" alt = "" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery}`);
+        return (`<h1 class='center-text'>${name}</h1> <img class='center-text' src = "./data/Flag/${flag}.png" alt = "" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery}`);
 
     }
 

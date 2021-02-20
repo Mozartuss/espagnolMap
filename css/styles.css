@@ -9,7 +9,8 @@
 .center-text {
     text-align: center;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    display: block;
 }
 
 .column {
