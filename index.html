@@ -311,13 +311,13 @@
         const famous = jsonData[id]["Famous_people"]
 
 
-        const audioPlayer = audio ? `<audio controls> <source src="./data/dialectAudio/${audio}" type="audio/mp3"></audio> <br><br> <b>${transcript}</b>` : ""
+        const audioPlayer = audio ? `<audio controls> <source src="./data/dialectAudio/${audio}" type="audio/mp3"></audio> <br><br> ${transcript}` : ""
 
-        const languagesInfo = languages ? `<h3>Sprache</h3> <b>${languages}</b>` : ""
+        const languagesInfo = languages ? `<h3>Sprache</h3> ${languages}` : ""
 
-        const culureInfo = culture ? `<h3>Kultur</h3> <b>${culture}</b>` : ""
+        const culureInfo = culture ? `<h3>Kultur</h3> ${culture}` : ""
 
-        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> <b>${famous}</b>` : ""
+        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous}` : ""
 
         const imageGallery = images && Array.isArray(images)? `<div id="image-slider" class="splide"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : ""
 
