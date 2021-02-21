@@ -7,7 +7,20 @@ jsonData = {
         "culture": "Die weltbesten Fußballer kommen natürlich aus Argentinien und werden dort wie Götter verehrt. Aber das Land hat viel mehr zu bieten, als nur Fußball. Argentinien ist ein facettenreiches Land voller Kontraste, mit großartigen Landschaften, unterschiedlichen Klimazonen, großer kultureller Vielfalt und einer wunderschön melodischen Art, Spanisch zu sprechen.",
         "Audio": "",
         "Transcript": "",
-        "Video": ["Argentina es diversidad https://www.youtube.com/watch?v=57waq1HdllQ", "Carlos Gardel https://www.youtube.com/watch?v=Ot2keLHZ83s&list=PLVw7rXsuQOPx606q2DRrzKdXlDjeaY-xA&index=6,", "Estadio la Bombonera https://www.youtube.com/watch?v=sLYCkpBC1jU"],
+        "Video": [
+            [
+                "Argentina es diversidad",
+                "https://youtu.be/57waq1HdllQ"
+            ],
+            [
+                "Carlos Gardel ",
+                "https://youtu.be/Ot2keLHZ83s"
+            ],
+            [
+                "Estadio la Bombonera",
+                "https://youtu.be/sLYCkpBC1jU"
+            ]
+        ],
         "Image": [
             "Argentina01.png",
             "Argentina02.jpg",
@@ -26,7 +39,12 @@ jsonData = {
         "culture": "Bolivien ist nicht nur bekannt für seine kulturelle Vielfalt - im Land werden 36 verschiedene Sprachen gesprochen - sondern auch für seine landschaftlichen Kontraste - von den Gebirgsketten der Anden über die unwirtliche Wüste Gran Chaco bis hin zum tropischen Amazonasbecken.",
         "Audio": "",
         "Transcript": "",
-        "Video": "Impresiones de Bolivia https://www.youtube.com/watch?v=9PtZErAc3lo&feature=emb_logo",
+        "Video": [
+            [
+                "Impresiones de Bolivia",
+                "https://youtu.be/9PtZErAc3lo"
+            ]
+        ],
         "Image": [
             "Bolivien01.png",
             "Bolivien02.jpg",
@@ -44,7 +62,12 @@ jsonData = {
         "culture": "Chile - das schmalste Land der Welt hat viel zu bieten.",
         "Audio": "",
         "Transcript": "",
-        "Video": "Chile es aventura https://www.youtube.com/watch?v=6k64Rr-vj-I",
+        "Video": [
+            [
+                "Chile es aventura",
+                "https://youtu.be/6k64Rr-vj-I"
+            ]
+        ],
         "Image": [
             "Chile01.jpg",
             "Chile02.jpg",
@@ -67,7 +90,12 @@ jsonData = {
         "culture": "Drogen, Kartelle, Pablo Escobar - ¡Colombia es mucho más!",
         "Audio": "",
         "Transcript": "",
-        "Video": "Salsa Colombia https://www.youtube.com/watch?v=IR1cqagIYJY&feature=emb_logo",
+        "Video": [
+            [
+                "Salsa Colombia",
+                "https://youtu.be/IR1cqagIYJY"
+            ]
+        ],
         "Image": [
             "Kolumbien01.jpg",
             "Kolumbien02.jpg",
@@ -87,7 +115,12 @@ jsonData = {
         "culture": "Costa Rica ist eines der wenigen Länder in Lateinamerika, das über eine sehr stabile Wirtschaft und politische Verwaltung verfügt. Außerdem ist es Vorreiter in Sachen nachhaltige Energieerzeugung: Das Land gewinnt nahezu seine gesamte Energie aus erneuerbaren Energiequellen.",
         "Audio": "",
         "Transcript": "",
-        "Video": "Costa Rica - animales, playa, naturalzea https://www.youtube.com/watch?v=0DWmGz4_znk",
+        "Video": [
+            [
+                "Costa Rica - animales, playa, naturalzea",
+                "https://youtu.be/0DWmGz4_znk"
+            ]
+        ],
         "Image": "",
         "Description": "",
         "Famous_people": ""
@@ -120,7 +153,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["DomRep01.jpg"],
+        "Image": [
+            "DomRep01.jpg"
+        ],
         "Description": "",
         "Famous_people": ""
     },
@@ -150,7 +185,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["elsalvadormaras.jpg"],
+        "Image": [
+            "elsalvadormaras.jpg"
+        ],
         "Description": "",
         "Famous_people": ""
     },
@@ -163,7 +200,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["Guatemala01.jpg"],
+        "Image": [
+            "Guatemala01.jpg"
+        ],
         "Description": "",
         "Famous_people": ""
     },
@@ -175,7 +214,12 @@ jsonData = {
         "culture": "",
         "Audio": "",
         "Transcript": "",
-        "Video": "Tanz Punta https://www.youtube.com/watch?v=KHL1S1XtMec&list=RDKHL1S1XtMec&start_radio=1&t=164&t=164&t=164",
+        "Video": [
+            [
+                "Tanz Punta",
+                "https://youtu.be/KHL1S1XtMec"
+            ]
+        ],
         "Image": "",
         "Description": "",
         "Famous_people": ""
@@ -188,7 +232,12 @@ jsonData = {
         "culture": "Mexiko ist besonders reich an kulturellen Stätten der Maya und Azteken.",
         "Audio": "",
         "Transcript": "",
-        "Video": "Gesten im Spanischen Mexiko01.mp4",
+        "Video": [
+            [
+                "Gesten im Spanischen",
+                "Mexiko01.mp4"
+            ]
+        ],
         "Image": [
             "Mexiko01.jpg",
             "Mexiko02.jpg",
@@ -207,7 +256,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["Nicaragua01.jpg"],
+        "Image": [
+            "Nicaragua01.jpg"
+        ],
         "Description": "Das Land der Vulkane",
         "Famous_people": ""
     },
@@ -237,7 +288,12 @@ jsonData = {
         "culture": "Im Dreiländereck Brasilien, Argentinien und Praguay befinden sich die berühmten Cataratas del Iguazú",
         "Audio": "",
         "Transcript": "",
-        "Video": "https://www.youtube.com/watch?v=je668DqhHVY",
+        "Video": [
+            [
+                "",
+                "https://youtu.be/je668DqhHVY"
+            ]
+        ],
         "Image": "",
         "Description": "",
         "Famous_people": ""
@@ -250,7 +306,12 @@ jsonData = {
         "culture": "In Peru befindet sich die weltberühmte Ruinenstadt der Inka - Machu Picchu",
         "Audio": "",
         "Transcript": "",
-        "Video": "",
+        "Video": [
+            [
+                "",
+                "Peruvideo.mov"
+            ]
+        ],
         "Image": [
             "Peru01.png",
             "Peru02.png",
@@ -268,7 +329,12 @@ jsonData = {
         "culture": "Puerto Rico ist ein Außengebiert der USA in der Karibik. Die Bewohner Puerto Ricos besitzen zwar die US-Staatsbürgerschaft, dürfen aber nicht an den Präsidentschaftswahlen in den USA teilnehmen.",
         "Audio": "",
         "Transcript": "",
-        "Video": "Luis Fonsi https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+        "Video": [
+            [
+                "Luis Fonsi",
+                "https://youtu.be/kJQP7kiw5Fk"
+            ]
+        ],
         "Image": "",
         "Description": "",
         "Famous_people": "Luis Fonsi, Daddy Yankee, Nicky Jam, Ricky Martin"
@@ -282,7 +348,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["Uruguay01.jpg"],
+        "Image": [
+            "Uruguay01.jpg"
+        ],
         "Description": "",
         "Famous_people": ""
     },
@@ -295,7 +363,9 @@ jsonData = {
         "Audio": "",
         "Transcript": "",
         "Video": "",
-        "Image": ["Venezuela01.jpg"],
+        "Image": [
+            "Venezuela01.jpg"
+        ],
         "Description": "",
         "Famous_people": ""
     },
@@ -307,7 +377,16 @@ jsonData = {
         "culture": "Siesta, Flamenco, Paella, Tapas, Mallorca, Sherry, Jamón Ibérico, Barcelona, Madrid - wir wissen alle schon viel über Spanien. Aber um ein Land wirklich kennenlernen zu können, muss man die Landessprache beherrschen. Fangen wir am besten gleich mit einem kleinen Dialog an. ",
         "Audio": "",
         "Transcript": "",
-        "Video": "Sich vorstellen https://www.youtube.com/watch?v=LK60fDopDBU Flamenco https://www.youtube.com/watch?v=eAcjgh2ofQ8",
+        "Video": [
+            [
+                "Sich vorstellen",
+                "https://youtu.be/LK60fDopDBU"
+            ],
+            [
+                "Flamenco",
+                "https://youtu.be/eAcjgh2ofQ8"
+            ]
+        ],
         "Image": [
             "Spanien01.png",
             "Spanien02.png",
@@ -389,4 +468,4 @@ jsonData = {
         "Description": "",
         "Famous_people": ""
     }
-}
+};
