@@ -130,7 +130,7 @@ jsonData = {
         "Country_flag": "datei_ecuador",
         "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
         "culture": "",
-        "Audio": "",
+        "Audio": "Ecuador.mp3",
         "Transcript": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinselns mit ihrer beindruckenden Fauna",
         "Video": "",
         "Image": [

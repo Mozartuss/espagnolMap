@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/splide.min.css">
     <meta charset="UTF-8">
-    <title>Spanish countries</title>
+    <title>Países donde se habla español</title>
 </head>
 <body>
 <script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>
@@ -13,11 +13,12 @@
 <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
         crossorigin="anonymous" type="text/javascript"></script>
 <script src="./data/data.js" type="text/javascript"></script>
-<script src="js/splide.min.js"></script>
+<script src="js/splide.min.js" type="text/javascript"></script>
+<script src="js/lazysizes.min.js" type="text/javascript" async=""></script>
 
 
 <div style="width: 100%">
-    <h1 class="center-text">Spanisch Karte</h1>
+    <h1 class="center-text">Länder, in denen Spanisch gesprochen wird | Países donde se habla español</h1>
 </div>
 <div id="box" style="flex: 1; overflow: hidden">
     <div id="card" class="column"
@@ -36,7 +37,16 @@
         defaultFill: "#374140",
         highlighted: "#FF3B30",
         second: "#FF9500"
-    }
+    };
+
+    window.onload = function () {
+        var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+        if (mobile) {
+            alert("Besuche diese Seite auf einem Computer für eine bessere Anzeige");
+        } else {
+
+        }
+    };
 
     function Zoom(args) {
         $.extend(this, {
@@ -220,7 +230,7 @@
 
     function Datamap() {
         this.$container = $("#container");
-        this.instance = new Datamaps({
+        new Datamaps({
             scope: 'world',
             element: this.$container.get(0),
             projection: 'mercator',
@@ -238,7 +248,7 @@
                 highlightBorderWidth: 1,
                 popupTemplate: function (geography, data) {
                     if (isos.includes(geography.id)) {
-                        return '<div class="hoverinfo">' + geography.properties.name + '</div>';
+                        return '<div class="hoverinfo">' + jsonData[geography.id]["Name"] + '</div>';
                     } else {
                         return undefined
                     }
@@ -256,12 +266,13 @@
 
     Datamap.prototype._handleMapReady = function (datamap) {
         datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
-            console.log(geography)
+            console.log(geography);
+
 
             if (isos.includes(geography.id)) {
-                let name = geography.properties.name;
-                if (geography.properties.name.indexOf(',') > -1) {
-                    const str = geography.properties.name.split(',')
+                let name = jsonData[geography.id]["Name"];
+                if (jsonData[geography.id]["Name"].indexOf(',') > -1) {
+                    const str = jsonData[geography.id]["Name"](',');
                     name = str[1] + " " + str[0]
                 }
                 if ($("#box #info").length > 0) {
@@ -273,9 +284,7 @@
                     }).mount()
 
                 } else {
-                    $('#box').append("<div id='info' class=\"column\" style=\" width: 33vw; float: left\">\n" +
-                        "<div id='country-info' >" + getInfo(name, geography.id) + "</div> " +
-                        "    </div>");
+                    $('#box').append(`<div id='info' class="column" style=" width: 33vw; float: left; will-change: transform;"><div id='country-info' >${getInfo(name, geography.id)}</div></div>`);
                     $('#card').css({"float": "left"});
 
                     new Splide('#image-slider', {
@@ -298,38 +307,38 @@
         });
 
 
-    }
+    };
 
     function getInfo(country, id) {
-        const name = jsonData[id]["Name"]
-        const flag = jsonData[id]["Country_flag"].split("_")[1]
-        const audio = jsonData[id]["Audio"]
-        const transcript = jsonData[id]["Transcript"]
-        const images = jsonData[id]["Image"]
-        const languages = jsonData[id]["languages"]
-        const culture = jsonData[id]["culture"]
-        const famous = jsonData[id]["Famous_people"]
+        const name = jsonData[id]["Name"];
+        const flag = jsonData[id]["Country_flag"].split("_")[1];
+        const audio = jsonData[id]["Audio"];
+        const transcript = jsonData[id]["Transcript"];
+        const images = jsonData[id]["Image"];
+        const languages = jsonData[id]["languages"];
+        const culture = jsonData[id]["culture"];
+        const famous = jsonData[id]["Famous_people"];
 
 
-        const audioPlayer = audio ? `<audio controls> <source src="./data/dialectAudio/${audio}" type="audio/mp3"></audio> <br><br> ${transcript}` : ""
+        const audioPlayer = audio ? `<audio controls> <source src="./data/dialectAudio/${audio}" type="audio/mp3"></audio> <br><br> ${transcript}` : "";
 
-        const languagesInfo = languages ? `<h3>Sprache</h3> ${languages}` : ""
+        const languagesInfo = languages ? `<h3>Sprache</h3> ${languages}` : "";
 
-        const culureInfo = culture ? `<h3>Kultur</h3> ${culture}` : ""
+        const culureInfo = culture ? `<h3>Kultur</h3> ${culture}` : "";
 
-        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous}` : ""
+        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous}` : "";
 
-        const imageGallery = images && Array.isArray(images)? `<div id="image-slider" class="splide"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : ""
+        const imageGallery = images && Array.isArray(images) ? `<div id="image-slider" class="splide"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : "";
 
-        return (`<h1 class='center-text'>${name}</h1> <img class='center-text' src = "./data/Flag/${flag}.png" alt = "" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery}`);
+        return (`<h1 class='center-text'>${name}</h1> <img class='center-text lazyload' data-src="./data/Flag/${flag}.png" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery}`);
 
     }
 
     function getImages(images) {
-        let imageString = ""
+        let imageString = "";
         if (Array.isArray(images)) {
             images.forEach((item) => {
-                imageString += `<li class="splide__slide" ><img src="./data/Image/${item}" ></li>`
+                imageString += `<li class="splide__slide" ><img class="lazyload" src="./data/Image/${item}" ></li>`
 
             })
         }
