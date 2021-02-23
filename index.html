@@ -354,12 +354,12 @@
         const video = jsonData[id]["Video"];
 
         const videoPlayer = video && Array.isArray(video) ? getVideos(video) : "";
-        const audioPlayer = audio ? `<h3>Dialekt</h3><audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${audio}" type="audio/${audio.split(".").slice(-1)[0]}"></audio>${transcript ? "<h3>Transkript</h3>" : ""}${transcript}` : "";
-        const languagesInfo = languages ? `<h3>Sprache</h3> ${languages}` : "";
-        const culureInfo = culture ? `<h3>Kultur</h3> ${culture}` : "";
-        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous}` : "";
-        const imageGallery = images && Array.isArray(images) ? `<div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div>` : "";
-        return (`<h1 class='center-text'>${name}</h1> <img class='center-text lozad' data-src="./data/Flag/${flag}.png" alt="${name} Flagge" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer} <br> ${languagesInfo} <br>${culureInfo} <br> ${famousInfo}<br><br><br> ${imageGallery} <br> <br> ${videoPlayer}`);
+        const audioPlayer = audio ? `<h3>Dialekt</h3><audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${audio}" type="audio/${audio.split(".").slice(-1)[0]}"></audio>${transcript ? "<h3>Transkript</h3>" : ""}${transcript} <br>` : "";
+        const languagesInfo = languages ? `<h3>Sprache</h3> ${languages} <br>` : "";
+        const culureInfo = culture ? `<h3>Kultur</h3> ${culture} <br>` : "";
+        const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous} <br>` : "";
+        const imageGallery = images && Array.isArray(images) ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
+        return (`<h1 class='center-text'>${name}</h1> <img class='center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" style="margin-bottom: 16px;margin-top: 16px;height: 50%; width: 50%; object-fit: contain" /> <br> ${audioPlayer}  ${languagesInfo} ${culureInfo}  ${famousInfo} ${imageGallery}   ${videoPlayer}`);
     }
 
     function getImages(images) {

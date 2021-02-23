@@ -30,11 +30,11 @@
       ],
       [
         "Tafí del Valle",
-        "Argentina03.mov"
+        "Argentina03.mp4"
       ]
     ],
     "Image": [
-      "Argentina01.png",
+      "Argentina01.jpg",
       "Argentina02.jpg",
       "Argentina03.jpg",
       "Argentina04.jpg",
@@ -64,7 +64,7 @@
       ]
     ],
     "Image": [
-      "Bolivien01.png",
+      "Bolivien01.jpg",
       "Bolivien02.jpg",
       "Bolivien03.jpg",
       "Bolivien04.jpg"
@@ -228,7 +228,8 @@
     "Transcript": "",
     "Video": "",
     "Image": [
-      "Guatemala01.jpg"
+      "Guatemala01.jpg",
+      "Guatemala02.jpg"
     ],
     "Description": "",
     "Famous_people": ""
@@ -281,7 +282,9 @@
       "Mexiko01.jpg",
       "Mexiko02.jpg",
       "Mexiko03.jpg",
-      "Mexiko04.jpg"
+      "Mexiko04.jpg",
+      "Mexiko05.jpg",
+      "Mexiko06.jpg"
     ],
     "Description": "",
     "Famous_people": "Moctezuma, Hernán Cortés, Frida Kahlo, Diego Rivera, Carlos Santana, Salma Hayek"
@@ -348,14 +351,14 @@
     "Video": [
       [
         "",
-        "Peruvideo.mov"
+        "Peruvideo.mp4"
       ]
     ],
     "Image": [
-      "Peru01.png",
-      "Peru02.png",
-      "Peru03.png",
-      "Peru04.png"
+      "Peru01.jpg",
+      "Peru02.jpg",
+      "Peru03.jpg",
+      "Peru04.jpg"
     ],
     "Description": "",
     "Famous_people": "Mario Vargas Llosa"
@@ -447,30 +450,30 @@
       ]
     ],
     "Image": [
-      "Spanien01.png",
-      "Spanien02.png",
-      "Spanien03.png",
-      "Spanien04.png",
-      "Spanien05.png",
-      "Spanien06.png",
-      "Spanien07.png",
-      "Spanien08.png",
-      "Spanien09.png",
+      "Spanien01.jpg",
+      "Spanien02.jpg",
+      "Spanien03.jpg",
+      "Spanien04.jpg",
+      "Spanien05.jpg",
+      "Spanien06.jpg",
+      "Spanien07.jpg",
+      "Spanien08.jpg",
+      "Spanien09.jpg",
       "Spanien010.jpg",
-      "Spanien011.png",
-      "Spanien012.png",
-      "Spanien013.png",
-      "Spanien014.png",
-      "Spanien015.png",
+      "Spanien011.jpg",
+      "Spanien012.jpg",
+      "Spanien013.jpg",
+      "Spanien014.jpg",
+      "Spanien015.jpg",
       "Spanien016.jpg",
       "Spanien017.jpg",
       "Spanien018.jpg",
       "Spanien019.jpg",
-      "Spanien020.png",
-      "Spanien021.png",
-      "Spanien022.png",
-      "Spanien023.png",
-      "Spanien024.png",
+      "Spanien020.jpg",
+      "Spanien021.jpg",
+      "Spanien022.jpg",
+      "Spanien023.jpg",
+      "Spanien024.jpg",
       "Spanien025.jpg",
       "Spanien026.jpg",
       "Spanien027.jpg",
@@ -532,11 +535,11 @@
     "Transcript": "",
     "Video": "",
     "Image": [
-      "Deutschland_spanischunterricht00.png",
-      "Deutschland_spanischunterricht01.PNG",
-      "Deutschland_spanischunterricht02.PNG",
-      "Deutschland_spanischunterricht03.PNG",
-      "Deutschland_Spanischunterricht04.PNG"
+      "Deutschland_spanischunterricht00.jpg",
+      "Deutschland_spanischunterricht01.jpg",
+      "Deutschland_spanischunterricht02.jpg",
+      "Deutschland_spanischunterricht03.jpg",
+      "Deutschland_Spanischunterricht04.jpg"
     ],
     "Description": "",
     "Famous_people": "Unsere super SpanischschülerInnen :)"
