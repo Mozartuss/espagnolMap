@@ -354,7 +354,7 @@
         const video = jsonData[id]["Video"];
 
         const videoPlayer = video && Array.isArray(video) ? getVideos(video) : "";
-        const audioPlayer = audio ? `<h3>Dialekt</h3><audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${audio}" type="audio/${audio.split(".").slice(-1)[0]}"></audio><h3>Transkript</h3> ${transcript}` : "";
+        const audioPlayer = audio ? `<h3>Dialekt</h3><audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${audio}" type="audio/${audio.split(".").slice(-1)[0]}"></audio>${transcript ? "<h3>Transkript</h3>" : ""}${transcript}` : "";
         const languagesInfo = languages ? `<h3>Sprache</h3> ${languages}` : "";
         const culureInfo = culture ? `<h3>Kultur</h3> ${culture}` : "";
         const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous}` : "";
@@ -382,7 +382,7 @@
                     const embeded_link = `https://www.youtube.com/embed/${x[x.length - 1]}`;
                     videoString += `<h3 class="center-text">${item[0]}</h3> <div class="resp-container"> <iframe class='center-text resp-iframe lozad' width="533.33" height="300" data-src="${embeded_link}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br>`
                 } else {
-                    videoString += `<h3 class="center-text">${item[0]}</h3><div class="resp-container"><video controls class="lozad resp-iframe center-text"> <source data-src="./data/Image/${item[1]}" type="video/${item[1].split(".").slice(-1)[0] === "mov" ? "mp4" : item[1].split(".").slice(-1)[0]}" ></video></div>`
+                    videoString += `<h3 class="center-text">${item[0]}</h3><div class="resp-container"><video controls class="lozad resp-iframe center-text"> <source data-src="./data/Image/${item[1]}" ></video></div>`
                 }
             })
         }

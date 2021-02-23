@@ -4,8 +4,8 @@
     "Name": "Argentina",
     "Country_flag": "datei_argentina",
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
-    "culture": "Die weltbesten Fußballer kommen natürlich aus Argentinien und werden dort wie Götter verehrt. Aber das Land hat viel mehr zu bieten, als nur Fußball. Argentinien ist ein facettenreiches Land voller Kontraste, mit großartigen Landschaften, unterschiedlichen Klimazonen, großer kultureller Vielfalt und einer wunderschön melodischen Art, Spanisch zu sprechen.",
-    "Audio": "",
+    "culture": "Die weltbesten Fußballer kommen natürlich aus Argentinien und werden dort wie Götter verehrt. Aber das Land hat viel mehr zu bieten als nur Fußball. Argentinien ist ein facettenreiches Land voller Kontraste, mit großartigen Landschaften, unterschiedlichen Klimazonen, großer kultureller Vielfalt und einer wunderschön melodischen Art, Spanisch zu sprechen.",
+    "Audio": "Argentina01.mp3",
     "Transcript": "",
     "Video": [
       [
@@ -19,6 +19,18 @@
       [
         "Estadio la Bombonera",
         "https://youtu.be/sLYCkpBC1jU"
+      ],
+      [
+        "Hippodrom in Buenos Aires",
+        "Argentina01.mp4"
+      ],
+      [
+        "Semana Santa in Santiago del Estero",
+        "Argentina02.mp4"
+      ],
+      [
+        "Tafí del Valle",
+        "Argentina03.mov"
       ]
     ],
     "Image": [
@@ -26,7 +38,13 @@
       "Argentina02.jpg",
       "Argentina03.jpg",
       "Argentina04.jpg",
-      "Argentina05.jpg"
+      "Argentina05.jpg",
+      "Argentina06.jpg",
+      "Argentina07.jpg",
+      "Argentina08.jpg",
+      "Argentina09.jpg",
+      "Argentina10.jpg",
+      "Argentina11.jpg"
     ],
     "Description": "",
     "Famous_people": "Lionel Messi, Diego Armando Maradona, Papst Franziskus, Ernesto Che Guevara, Jorge Luis Borges, Julio Cortázar, Carlos Gardel "
@@ -52,7 +70,7 @@
       "Bolivien04.jpg"
     ],
     "Description": "",
-    "Famous_people": ""
+    "Famous_people": "Evo Morales"
   },
   "CHL": {
     "fillKey": "highlighted",
@@ -80,7 +98,7 @@
       "Chile09.jpg"
     ],
     "Description": "",
-    "Famous_people": "Isabel Allende, Pablo Neruda,"
+    "Famous_people": "Isabel Allende, Pablo Neruda"
   },
   "COL": {
     "fillKey": "highlighted",
@@ -94,6 +112,10 @@
       [
         "Salsa Colombia",
         "https://youtu.be/IR1cqagIYJY"
+      ],
+      [
+        "René Higuita - El escorpión",
+        "https://youtu.be/E72jeUUfr6E"
       ]
     ],
     "Image": [
@@ -133,7 +155,12 @@
     "culture": "Fidel Castro und Ernesto Che Guevara sind die wohl bekanntesten Repräsentanten des realsozialistischen Inselstaates in der Karibik, in dem es lange Zeit zwei Währungen gleichzeitig gab: den Peso Cubano und den Peso convertible.",
     "Audio": "",
     "Transcript": "",
-    "Video": "Chan Chan https://www.youtube.com/watch?v=WAjRmHODjyQ ",
+    "Video": [
+      [
+        "Chan Chan",
+        "https://youtu.be/WAjRmHODjyQ"
+      ]
+    ],
     "Image": [
       "Cuba01.jpg",
       "Cuba02.jpg",
@@ -142,7 +169,7 @@
       "Cuba05.jpg"
     ],
     "Description": "",
-    "Famous_people": ""
+    "Famous_people": "Fidel Castro, Raúl Castro, Ernesto Che Guevara (geboren in Argentinien)"
   },
   "DOM": {
     "fillKey": "highlighted",
@@ -164,9 +191,9 @@
     "Name": "Ecuador",
     "Country_flag": "datei_ecuador",
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
-    "culture": "",
-    "Audio": "Ecuador.mp3",
-    "Transcript": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinselns mit ihrer beindruckenden Fauna",
+    "culture": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinselns mit ihrer beindruckenden Fauna",
+    "Audio": "",
+    "Transcript": "",
     "Video": "",
     "Image": [
       "Ecuador01.jpg",
@@ -196,7 +223,7 @@
     "Name": "Guatemala",
     "Country_flag": "datei_guatemala",
     "languages": "Amtssprache: Spanisch",
-    "culture": "In Guatemala gibt es einen Wasserfall namens Cascada del Paraíso. Über den Wasserfall stürz heißes Thermalwasser herab und trifft auf einen kalten Fluss. Wenn man also an den Fuß des Wasserfalls schwimmt, steht man hüfthoch in kaltem Wasser, während von oben eine heiße Dusche kommt.",
+    "culture": "In Guatemala gibt es einen Wasserfall namens Cascada del Paraíso. Über den Wasserfall stürzt heißes Thermalwasser herab und trifft auf einen kalten Fluss. Wenn man also an den Fuß des Wasserfalls schwimmt, steht man hüfthoch in kaltem Wasser, während von oben eine heiße Dusche kommt.",
     "Audio": "",
     "Transcript": "",
     "Video": "",
@@ -236,6 +263,18 @@
       [
         "Gesten im Spanischen",
         "Mexiko01.mp4"
+      ],
+      [
+        "Strand",
+        "Mexiko02.mp4"
+      ],
+      [
+        "Markt",
+        "Mexiko03.mp4"
+      ],
+      [
+        "Markt_2",
+        "Mexiko04.mp4"
       ]
     ],
     "Image": [
@@ -285,12 +324,12 @@
     "Name": "Paraguay",
     "Country_flag": "datei_paraguay",
     "languages": "Amtssprachen: Spanisch und Guaraní",
-    "culture": "Im Dreiländereck Brasilien, Argentinien und Praguay befinden sich die berühmten Cataratas del Iguazú",
+    "culture": "Im Dreiländereck Brasilien, Argentinien und Paraguay befinden sich die berühmten Cataratas del Iguazú",
     "Audio": "",
     "Transcript": "",
     "Video": [
       [
-        "",
+        "Las Cataratas del Iguazú",
         "https://youtu.be/je668DqhHVY"
       ]
     ],
@@ -326,7 +365,7 @@
     "Name": "Puerto Rico",
     "Country_flag": "datei_puertorico",
     "languages": "Amtssprache: Spanisch und Englisch",
-    "culture": "Puerto Rico ist ein Außengebiert der USA in der Karibik. Die Bewohner Puerto Ricos besitzen zwar die US-Staatsbürgerschaft, dürfen aber nicht an den Präsidentschaftswahlen in den USA teilnehmen.",
+    "culture": "Puerto Rico ist ein Außengebiet der USA in der Karibik. Die Bewohner Puerto Ricos besitzen zwar die US-Staatsbürgerschaft, dürfen aber nicht an den Präsidentschaftswahlen in den USA teilnehmen.",
     "Audio": "",
     "Transcript": "",
     "Video": [
@@ -367,14 +406,14 @@
       "Venezuela01.jpg"
     ],
     "Description": "",
-    "Famous_people": ""
+    "Famous_people": "Simón Bolívar, Hugo Chávez,"
   },
   "ESP": {
     "fillKey": "highlighted",
     "Name": "España",
     "Country_flag": "datei_espana",
     "languages": "Amtssprache: Spanisch; regionale Amtssprachen: Katalanisch, Baskisch, Galicisch",
-    "culture": "Siesta, Flamenco, Paella, Tapas, Mallorca, Sherry, Jamón Ibérico, Barcelona, Madrid - wir wissen alle schon viel über Spanien. Aber um ein Land wirklich kennenlernen zu können, muss man die Landessprache beherrschen. Fangen wir am besten gleich mit einem kleinen Dialog an. ",
+    "culture": "Siesta, Flamenco, Paella, Tapas, Mallorca, Sherry, Jamón Ibérico, Barcelona, Madrid - wir wissen alle schon viel über Spanien. Aber um ein Land wirklich kennenlernen zu können, muss man die Landessprache beherrschen. Fangen wir am besten gleich mit einem kleinen Dialog an. Im ersten Video lernst du, wie man sich auf Spanisch vortellt. Los gehts!",
     "Audio": "",
     "Transcript": "",
     "Video": [
@@ -385,6 +424,26 @@
       [
         "Flamenco",
         "https://youtu.be/eAcjgh2ofQ8"
+      ],
+      [
+        "Enrique Iglesias - El Perdón",
+        "https://youtu.be/1m7TF2nVV1c"
+      ],
+      [
+        "Flamenco auf der Strasse",
+        "https://youtu.be/-Vj5kzGLgLE"
+      ],
+      [
+        "Bebe - Siempre me quedará",
+        "https://youtu.be/C4cmJ7QqBMI"
+      ],
+      [
+        "Rosalía - Malamente",
+        "https://youtu.be/Rht7rBHuXW8"
+      ],
+      [
+        "Ska-P - Se acabó",
+        "https://youtu.be/g95aZ7Y0v6g"
       ]
     ],
     "Image": [
@@ -405,7 +464,19 @@
       "Spanien015.png",
       "Spanien016.jpg",
       "Spanien017.jpg",
-      "Spanien018.jpg"
+      "Spanien018.jpg",
+      "Spanien019.jpg",
+      "Spanien020.png",
+      "Spanien021.png",
+      "Spanien022.png",
+      "Spanien023.png",
+      "Spanien024.png",
+      "Spanien025.jpg",
+      "Spanien026.jpg",
+      "Spanien027.jpg",
+      "Spanien028.jpg",
+      "Spanien029.jpg",
+      "Spanien030.jpg"
     ],
     "Description": "",
     "Famous_people": "Juan Carlos I, Felipe VI, Rafael Nadal, Penélope Cruz, Salvador Dalí, Antoni Gaudí, Pablo Picasso, Miguel de Cervantes, Don Quijote, David Bisbal, Enrique Iglesias, und viele viele mehr"
@@ -414,7 +485,7 @@
     "fillKey": "second",
     "Name": "Belice",
     "Country_flag": "datei_belice",
-    "languages": "Amtssprache: Englisch; Kommunikation auf Spanisch möglich",
+    "languages": "Amtssprache: Englisch; Spanisch ist sehr weit verbreitet",
     "culture": "",
     "Audio": "",
     "Transcript": "",
@@ -440,12 +511,14 @@
     "fillKey": "second",
     "Name": "Estados Unidos",
     "Country_flag": "datei_estadosunidos",
-    "languages": "Amtssprache: Englisch; weit verbreitete Sprache: Spanisch; Mit weit über 50 Millionen Spanischsprechenden, sind die Vereinigten Staaten das Land mit den zweitmeisten Spanischsprechenden weltweit - Tendenz stark steigend.",
+    "languages": "<p>Amtssprache: Englisch; weit verbreitete Sprache: Spanisch</p> <p>Mit weit &uuml;ber <strong>60 Millionen Spanischsprechenden</strong>, sind die Vereinigten Staaten das Land mit den zweitmeisten Spanischsprechenden weltweit - Tendenz stark steigend.</p>",
     "culture": "",
     "Audio": "",
     "Transcript": "",
     "Video": "",
-    "Image": "",
+    "Image": [
+      "USA01.jpg"
+    ],
     "Description": "",
     "Famous_people": ""
   },
@@ -454,7 +527,7 @@
     "Name": "Alemania - Augsburgo",
     "Country_flag": "datei_augsburgo",
     "languages": "Amtssprache: Deutsch; beliebte Fremdsprache: Spanisch",
-    "culture": "<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong><span style=\"font-size:16px;line-height:107%;\">Spanisch lernen und die Welt entdecken</span></strong></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'>Spanisch wird in &uuml;ber 20 L&auml;ndern gesprochen. Mehr als 400 Millionen Menschen sprechen Spanisch als Muttersprache. Insgesamt gibt es weltweit &uuml;ber 500 Millionen Spanischsprechende, somit ist Spanisch eine der meist gesprochenen Sprachen weltweit.</p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'>Nicht nur Reisen nach Lateinamerika erfreuen sich gro&szlig;er Beliebtheit, auch die weltpolitische Bedeutung Lateinamerikas nimmt stetig zu. Spanisch erm&ouml;glicht die Kommunikation in fast ganz S&uuml;d- und Mittelamerika, Gebiete in denen kaum Englisch gesprochen wird. Auch in Teilen der USA nimmt die Verbreitung der spanischen Sprache stetig zu. Beherrscht eine Person Spanisch und Englisch, steht ihr fast die ganze Welt offen.</p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'>Da Spanisch in vielen verschiedenen L&auml;ndern und Regionen gesprochen wird, existiert eine Vielzahl von Dialekten und Variet&auml;ten des Spanischen, die Elemente der jeweiligen Kultur des Landes widerspiegeln. Im Spanischunterreicht behandeln wir nicht nur Spanien, sondern lernen auch die kulturelle Vielfalt zahlreicher L&auml;nder S&uuml;d- und Mittelamerikas kennen.</p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'>Dass Spanisch nat&uuml;rlich die wohlklingendste, emotionalste und attraktivste Sprache der Welt ist, muss als Argument nicht extra aufgef&uuml;hrt werden.</p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'>&nbsp;</p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong>Spanisch am Gymnasium bei St. Anna</strong></p><ul> <li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Spanisch ist eine der beliebtesten Fremdsprachen am &bdquo;Anna&ldquo;</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Fachschaft: Frau H&ouml;rl und Hr. Hubmann</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Fokus im Unterricht: Kommunikation</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Strategien f&uuml;r effektives Lernen, Lesen, H&ouml;ren, Schreiben, Sprechen</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Sch&uuml;leraktivierung durch Projektarbeit &ndash; Handyfilm, Videokonferenzen, Pr&auml;sentationen, Fotostorys, Wettbewerbe, &hellip;</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Benotung nach Kriterien, viele echte m&uuml;ndliche Noten, kurze Tests, kurze Schulaufgaben, H&ouml;r- und Leseverstehenstests</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Spanischseminar: junge, engagierte Referendare &ndash; Betreuung durch die Stammlehrkr&auml;fte &ndash; weniger Stundenausfall &ndash; kleinere Lerngruppen</li><li style='margin-top: 0cm; margin-right: 0cm; margin-bottom: 8pt; line-height: 107%; font-size: 15px; font-family: \"Calibri\", sans-serif;'>Abitur: sehr beliebtes Abiturfach (schriftliches Abitur und Kolloquium)</li></ul>",
+    "culture": "<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong><span style=\"font-size:16px;line-height:106%;\">Spanisch lernen und die Welt entdecken</span></strong></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanisch wird in weit mehr als 20 L&auml;ndern gesprochen. Mehr als 400 Millionen Menschen sprechen Spanisch als Muttersprache. Insgesamt gibt es weltweit &uuml;ber 500 Millionen Spanischsprechende, somit ist Spanisch eine der meist gesprochenen Sprachen weltweit.</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Da Spanisch in vielen verschiedenen L&auml;ndern und Regionen gesprochen wird, existiert eine Vielzahl von Dialekten und Variet&auml;ten des Spanischen, die Elemente der jeweiligen Kultur widerspiegeln.</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">&nbsp;</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong><span style=\"font-size:15px;line-height:106%;\">Spanisch am Gymnasium bei St. Anna</span></strong></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanisch ist seit Jahren eine der beliebtesten Fremdsprachen am &bdquo;Anna&ldquo;. Die stabil hohen Sch&uuml;lerzahlen erm&ouml;glichen die Weiterf&uuml;hrung von Spanisch in der Oberstufe (bisher immer ohne eine Zusammenlegung von Q11 mit Q12) bis hin zum Abitur.<br>&nbsp;Im Unterricht ist es uns besonders wichtig, dass die Sch&uuml;lerInnen lernen, die Sprache zu sprechen und anzuwenden.&nbsp;</span></p><ul style=\"margin-bottom:0cm;margin-top:0cm;\" type=\"disc\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Fachschaft: Frau H&ouml;rl (Seminarleiterin) und Hr. Hubmann (Fachschaftsleiter)</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Austausch mit Vitoria-Gasteiz (Baskenland) &ndash; Onlineprojekt mit der Austauschschule im Lockdown &ndash; 2019 Fahrt nach Madrid</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Fokus im Unterricht: Kommunikation</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Strategien f&uuml;r effektives Lernen, Lesen, H&ouml;ren, Schreiben, Sprechen</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Sch&uuml;leraktivierung durch Projektarbeit, Videokonferenzen, Pr&auml;sentationen, Foto-Stories, Filme drehen, Wettbewerbe, &hellip;</span></li></ul><div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'> <ul style=\"margin-bottom:0cm;list-style-type: disc;\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"line-height:106%;font-family:Calibri;font-size:11.5pt;\">Im Spanischunterreicht behandeln wir nicht nur Spanien, sondern lernen auch die kulturelle Vielfalt zahlreicher L&auml;nder S&uuml;d- und Mittelamerikas kennen</span></li></ul></div><ul style=\"margin-bottom:0cm;margin-top:0cm;\" type=\"disc\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Benotung: viele echte m&uuml;ndliche Noten, kurze Tests, kurze Schulaufgaben, H&ouml;r- und Leseverstehenstests</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanischseminar: junge, engagierte Referendare &ndash; Betreuung durch die Stammlehrkr&auml;fte &ndash; kaum Stundenausfall &ndash; kleinere Lerngruppen</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Abitur &ndash; sehr beliebtes Abiturfach (schriftliches Abitur und Kolloquium)</span></li></ul>",
     "Audio": "",
     "Transcript": "",
     "Video": "",
@@ -466,6 +539,6 @@
       "Deutschland_Spanischunterricht04.PNG"
     ],
     "Description": "",
-    "Famous_people": ""
+    "Famous_people": "Unsere super SpanischschülerInnen :)"
   }
 }
