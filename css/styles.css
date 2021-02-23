@@ -25,7 +25,26 @@
     height: auto;
     max-height: 300px;
     object-fit: contain;
+}
 
+.flag {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: 50%;
+    width: 50%;
+    object-fit: contain
+}
+
+#map {
+    width: 60vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box {
+    flex: 1;
+    overflow: hidden
 }
 
 /* The Modal (background) */
