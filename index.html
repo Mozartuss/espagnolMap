@@ -41,7 +41,7 @@
 
 <!-- The Modal -->
 <div class="modal" id="imageModal">
-    <span class="close">&times;</span>
+    <span class="close-modal">&times;</span>
     <img class="modal-content" id="imgModal">
 </div>
 
@@ -62,7 +62,6 @@
 
         }
     };
-
 
 
     function Datamap() {
@@ -104,7 +103,7 @@
     const observer = lozad();
 
     const modal = document.getElementById("imageModal");
-    const span = document.getElementsByClassName("close")[0];
+    const span = document.getElementsByClassName("close-modal")[0];
 
     function lazyLoadingImageSlider(geography) {
         if (Array.isArray(jsonData[geography.id]["Image"])) {
@@ -145,7 +144,7 @@
                 } else {
                     // Wenn auf ein Land geklickt wird und und die rechte Infospalte noch nicht offen ist.
                     // Generiert Infospalte
-                    $('#box').append(`<div id='info' class="column" style=" width: 33vw; float: left; will-change: transform;"><div id='country-info' >${getInfo(name, geography.id)}</div></div>`);
+                    $('#box').append(`<div id='info' class="info-box"><div id="test" style="overflow:hidden"><button type="button" class="close" onclick="closeInfo()">x</button></div><div id='country-info' >${getInfo(name, geography.id)}</div></div>`);
                     // Verschiebt die Karte nach links
                     $('#map').css({"float": "left"});
                     // Lazyloading und Imageslider
@@ -184,7 +183,15 @@
         const culureInfo = culture ? `<h3>Kultur</h3> ${culture} <br>` : "";
         const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous} <br>` : "";
         const imageGallery = images && Array.isArray(images) ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
-        return (`<h1 class='center-text'>${name}</h1> <img class='flag center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" /> <br> ${audioPlayer}  ${languagesInfo} ${culureInfo}  ${famousInfo} ${imageGallery}   ${videoPlayer}`);
+        return (`
+            <h1 class='center-text'>${name}</h1>
+            <img class='flag center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" /> <br>
+            ${audioPlayer}
+            ${languagesInfo}
+            ${culureInfo}
+            ${famousInfo}
+            ${imageGallery}
+            ${videoPlayer}`);
     }
 
     // Baut den Imageslider
@@ -213,6 +220,11 @@
             })
         }
         return videoString
+    }
+
+    function closeInfo() {
+        $('#info').remove();
+        $('#map').css("float", "")
     }
 
     new Datamap();
