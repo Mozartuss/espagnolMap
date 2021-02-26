@@ -35,6 +35,10 @@
         <div id="container" class="center"></div>
     </div>
 </div>
+<ul class="legend">
+    <li><i class="official"></i>Offizielle Amtssprache</li>
+    <li><i class="secondary"></i>Verbreitet</li>
+</ul>
 <div>
     <h3 id="content" class="center-text"></h3>
 </div>
@@ -48,9 +52,9 @@
 <script>
     const isos = ["ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "URY", "VEN", "ESP", "BLZ", "BRA", "USA", "DEU"];
     const fills = {
-        defaultFill: "#374140",
-        highlighted: "#FF3B30",
-        second: "#FF9500"
+        defaultFill: "#cccccc",
+        highlighted: "#c30c1b",
+        second: "#FAC304"
     };
 
     // Alert wenn jemand versucht die Webseite auf dem Handy anzuschauen, geht nämlich nicht wirklich ....
@@ -78,7 +82,7 @@
             geographyConfig: {
                 highlightOnHover: true,
                 highlightFillColor: function (geography) {
-                    return hex2rgba(geography['fillKey'] ? fills[geography['fillKey']] : undefined, .5) || "#374140";
+                    return hex2rgba(geography['fillKey'] ? fills[geography['fillKey']] : undefined, .5) || "#cccccc";
                 },
                 highlightBorderColor: 'fff',
                 highlightBorderWidth: 1,
@@ -185,7 +189,7 @@
         const imageGallery = images && Array.isArray(images) ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
         return (`
             <h1 class='center-text'>${name}</h1>
-            <img class='flag center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" /> <br>
+            <div class="flag"><img class='center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" /></div> <br>
             ${audioPlayer}
             ${languagesInfo}
             ${culureInfo}

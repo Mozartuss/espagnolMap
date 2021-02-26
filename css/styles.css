@@ -22,6 +22,36 @@ body {
     display: block;
 }
 
+.legend {
+    list-style-type: none;
+    margin: 16px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0
+}
+
+.legend li {
+    float: left;
+    margin-left: 16px;
+}
+
+.legend li i {
+    box-sizing: border-box;
+    display: inline-block;
+    height: .75em;
+    margin: 0 .25rem 0 .75rem;
+    width: .75em;
+}
+
+.official {
+    background-color: #c30c1b;
+}
+
+.secondary {
+    background-color: #FAC304;
+}
+
 /*.column {
     margin: 20px;
     padding-bottom: 100%;
@@ -36,13 +66,32 @@ body {
     object-fit: contain;
 }
 
+
 .flag {
-    margin-bottom: 16px;
-    margin-top: 16px;
-    /*height: 50%;*/
     width: 50%;
-    object-fit: contain
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .15)
 }
+
+.flag img {
+    width: 100%;
+
+
+}
+
+.flag::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, .25) 0%, rgba(255, 255, 255, .25) 15%, rgba(0, 0, 0, .25) 30%, rgba(255, 255, 255, .25) 45%, rgba(0, 0, 0, .25) 60%, rgba(255, 255, 255, .25) 75%, rgba(0, 0, 0, .25) 90%);
+}
+
 
 #map {
     width: 60vw;
