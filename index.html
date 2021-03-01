@@ -180,7 +180,7 @@
         const video = jsonData[id]["Video"];
 
         const videoPlayer = video && Array.isArray(video) ? getVideos(video) : "";
-        const audioPlayer = audio ? `<h3>Dialekt</h3><audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${audio}" type="audio/${audio.split(".").slice(-1)[0]}"></audio>${transcript ? "<h3>Transkript</h3>" : ""}${transcript} <br>` : "";
+        const audioPlayer = audio && Array.isArray(audio) ? getAudio(audio) : "";
         const languagesInfo = languages ? `<h3>Sprache</h3> ${languages} <br>` : "";
         const culureInfo = culture ? `<h3>Kultur</h3> ${culture} <br>` : "";
         const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous} <br>` : "";
@@ -222,6 +222,16 @@
             })
         }
         return videoString
+    }
+
+    function getAudio(audios) {
+        let audioString = "";
+        if (Array.isArray(audios)) {
+            audios.forEach((item) => {
+                audioString += `<audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${item}" type="audio/${item.toString().split(".").slice(-1)[0]}"></audio><br>`;
+            })
+        }
+        return audioString
     }
 
     function closeInfo() {

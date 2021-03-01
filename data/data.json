@@ -5,7 +5,14 @@
     "Country_flag": "argentina.jpg",
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
     "culture": "Die weltbesten Fußballer kommen natürlich aus Argentinien und werden dort wie Götter verehrt. Aber das Land hat viel mehr zu bieten als nur Fußball. Argentinien ist ein facettenreiches Land voller Kontraste, mit großartigen Landschaften, unterschiedlichen Klimazonen, großer kultureller Vielfalt und einer wunderschön melodischen Art, Spanisch zu sprechen.",
-    "Audio": "Argentina01.mp3",
+    "Audio": [
+      [
+        "Argentina02.mp3"
+      ],
+      [
+        "Argentina01.mp3"
+      ]
+    ],
     "Transcript": "",
     "Video": [
       [
@@ -106,7 +113,9 @@
     "Country_flag": "colombia.jpg",
     "languages": "Amtssprache: Spanisch",
     "culture": "Drogen, Kartelle, Pablo Escobar - Kolumbien ist viel mehr! ¡Colombia es mucho más!",
-    "Audio": "",
+    "Audio": [
+      "Colombia01.mp3"
+    ],
     "Transcript": "",
     "Video": [
       [
@@ -153,7 +162,9 @@
     "Country_flag": "cuba.jpg",
     "languages": "Amtssprache: Spanisch",
     "culture": "Fidel Castro und Ernesto Che Guevara sind die wohl bekanntesten Repräsentanten des realsozialistischen Inselstaates in der Karibik, in dem es lange Zeit zwei Währungen gleichzeitig gab: den Peso Cubano und den Peso convertible.",
-    "Audio": "",
+    "Audio": [
+      "Cuba01.mp3"
+    ],
     "Transcript": "",
     "Video": [
       [
@@ -166,7 +177,17 @@
       "Cuba02.jpg",
       "Cuba03.jpg",
       "Cuba04.jpg",
-      "Cuba05.jpg"
+      "Cuba05.jpg",
+      "Cuba06.jpg",
+      "Cuba07.jpg",
+      "Cuba08.jpg",
+      "Cuba09.jpg",
+      "Cuba010.jpg",
+      "Cuba011.jpg",
+      "Cuba012.jpg",
+      "Cuba013.jpg",
+      "Cuba014.jpg",
+      "Cuba015.jpg"
     ],
     "Description": "",
     "Famous_people": "Fidel Castro, Raúl Castro, Ernesto Che Guevara (geboren in Argentinien)"
@@ -192,7 +213,9 @@
     "Country_flag": "ecuador.jpg",
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
     "culture": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinseln mit ihrer beindruckenden Fauna",
-    "Audio": "",
+    "Audio": [
+      "Ecuador01.mp3"
+    ],
     "Transcript": "",
     "Video": "",
     "Image": [
@@ -479,7 +502,43 @@
       "Spanien027.jpg",
       "Spanien028.jpg",
       "Spanien029.jpg",
-      "Spanien030.jpg"
+      "Spanien030.jpg",
+      "Spanien031.jpg",
+      "Spanien032.jpg",
+      "Spanien033.jpg",
+      "Spanien034.jpg",
+      "Spanien035.jpg",
+      "Spanien036.jpg",
+      "Spanien037.jpg",
+      "Spanien038.jpg",
+      "Spanien039.jpg",
+      "Spanien040.jpg",
+      "Spanien041.jpg",
+      "Spanien042.jpg",
+      "Spanien043.jpg",
+      "Spanien044.jpg",
+      "Spanien045.jpg",
+      "Spanien046.jpg",
+      "Spanien047.jpg",
+      "Spanien048.jpg",
+      "Spanien049.jpg",
+      "Spanien050.jpg",
+      "Spanien051.jpg",
+      "Spanien052.jpg",
+      "Spanien053.jpg",
+      "Spanien054.jpg",
+      "Spanien055.jpg",
+      "Spanien056.jpg",
+      "Spanien057.jpg",
+      "Spanien058.jpg",
+      "Spanien059.jpg",
+      "Spanien060.jpg",
+      "Spanien061.jpg",
+      "Spanien062.jpg",
+      "Spanien063.jpg",
+      "Spanien064.jpg",
+      "Spanien065.jpg",
+      "Spanien066.jpg"
     ],
     "Description": "",
     "Famous_people": "Juan Carlos I, Felipe VI, Rafael Nadal, Penélope Cruz, Salvador Dalí, Antoni Gaudí, Pablo Picasso, Miguel de Cervantes, Don Quijote, David Bisbal, Enrique Iglesias, und viele viele mehr"
