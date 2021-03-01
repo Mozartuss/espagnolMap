@@ -1,4 +1,5 @@
-jsonData = {
+jsonData=
+{
   "ARG": {
     "fillKey": "primary",
     "Name": "Argentina",
@@ -113,7 +114,9 @@ jsonData = {
     "Country_flag": "colombia.jpg",
     "languages": "Amtssprache: Spanisch",
     "culture": "Drogen, Kartelle, Pablo Escobar - Kolumbien ist viel mehr! ¡Colombia es mucho más!",
-    "Audio": ["Colombia01.mp3"],
+    "Audio": [
+      "Colombia01.mp3"
+    ],
     "Transcript": "",
     "Video": [
       [
@@ -160,7 +163,9 @@ jsonData = {
     "Country_flag": "cuba.jpg",
     "languages": "Amtssprache: Spanisch",
     "culture": "Fidel Castro und Ernesto Che Guevara sind die wohl bekanntesten Repräsentanten des realsozialistischen Inselstaates in der Karibik, in dem es lange Zeit zwei Währungen gleichzeitig gab: den Peso Cubano und den Peso convertible.",
-    "Audio": ["Cuba01.mp3"],
+    "Audio": [
+      "Cuba01.mp3"
+    ],
     "Transcript": "",
     "Video": [
       [
@@ -209,7 +214,9 @@ jsonData = {
     "Country_flag": "ecuador.jpg",
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
     "culture": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinseln mit ihrer beindruckenden Fauna",
-    "Audio": ["Ecuador01.mp3"],
+    "Audio": [
+      "Ecuador01.mp3"
+    ],
     "Transcript": "",
     "Video": "",
     "Image": [
