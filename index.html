@@ -50,20 +50,18 @@
 </div>
 
 <script>
-    const isos = ["ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "URY", "VEN", "ESP", "BLZ", "BRA", "USA", "DEU"];
+    const isos = Object.keys(jsonData);
     const fills = {
         defaultFill: "#cccccc",
-        highlighted: "#c30c1b",
-        second: "#FAC304"
+        primary: "#c30c1b",
+        secondary: "#FAC304"
     };
 
     // Alert wenn jemand versucht die Webseite auf dem Handy anzuschauen, geht nämlich nicht wirklich ....
     window.onload = function () {
         const mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
         if (mobile) {
-            alert("Besuche diese Seite auf einem Computer für eine bessere Anzeige");
-        } else {
-
+            alert("Achtung diese Seite ist für Desktopcomputer optimiert und funktioniert eventuell auf ihrem Gerät nicht richtig");
         }
     };
 
@@ -172,7 +170,7 @@
     // Lädt die Informationen aus der Data.js und bastelt daraus HTML bausteine
     function getInfo(country, id) {
         const name = jsonData[id]["Name"];
-        const flag = jsonData[id]["Country_flag"].split("_")[1];
+        const flag = jsonData[id]["Country_flag"];
         const audio = jsonData[id]["Audio"];
         const transcript = jsonData[id]["Transcript"];
         const images = jsonData[id]["Image"];
@@ -189,7 +187,7 @@
         const imageGallery = images && Array.isArray(images) ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
         return (`
             <h1 class='center-text'>${name}</h1>
-            <div class="flag"><img class='center-text lozad' data-src="./data/Flag/${flag}.jpg" alt="${name} Flagge" /></div> <br>
+            <div class="flag"><img class='center-text lozad' data-src="./data/Flag/${flag}" alt="${name} Flagge" /></div> <br>
             ${audioPlayer}
             ${languagesInfo}
             ${culureInfo}
