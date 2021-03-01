@@ -29,7 +29,7 @@ jobs:
       - name: Generate data.js
         run: |
           cd data
-          echo 'jsonData='| cat - data.json > temp && mv temp data2.js
+          echo 'jsonData='| cat - data.json > temp && mv -f temp data.js
       - name: Commit changes
         run: |
           git config --local user.name "MozartusBot"
