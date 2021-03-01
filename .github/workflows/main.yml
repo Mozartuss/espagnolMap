@@ -29,4 +29,4 @@ jobs:
       - name: Generate data.js
         run: |
           cd data
-          echo 'jsonData='| cat - data.json > temp && mv -f temp data.js
+          echo 'jsonData='| cat - data.json > temp && cat temp 
