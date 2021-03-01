@@ -29,4 +29,15 @@ jobs:
       - name: Generate data.js
         run: |
           cd data
-          echo 'jsonData='| cat - data.json > temp && cat temp 
+          echo 'jsonData='| cat - data.json > temp && mv temp data2.js
+      - name: Commit changes
+        run: |
+          git config --local user.name "MozartusBot"
+          git add data2.js
+          git commit -m "Generate data.js"
+      - name: Push changes 
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          force: true
+          
