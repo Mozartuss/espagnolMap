@@ -1245,6 +1245,7 @@
       "default": [],
       "example": [
         [
+          "Titel (optional)",
           "audiofile.mp3"
         ]
       ],
@@ -1255,6 +1256,9 @@
             "type": "array",
             "additionalItems": false,
             "items": [
+              {
+                "type": "string"
+              },
               {
                 "type": "string"
               }
