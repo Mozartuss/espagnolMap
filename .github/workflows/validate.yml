@@ -6,7 +6,6 @@ on:
     paths:
       - 'data/data.json'
   pull_request:
-    branches: [ master ]
     paths:
       - 'data/data.json'
 
