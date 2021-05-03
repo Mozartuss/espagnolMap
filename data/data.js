@@ -8,9 +8,11 @@ jsonData=
     "culture": "Die weltbesten Fußballer kommen natürlich aus Argentinien und werden dort wie Götter verehrt. Aber das Land hat viel mehr zu bieten als nur Fußball. Argentinien ist ein facettenreiches Land voller Kontraste, mit großartigen Landschaften, unterschiedlichen Klimazonen, großer kultureller Vielfalt und einer wunderschön melodischen Art, Spanisch zu sprechen.",
     "Audio": [
       [
+        "",
         "Argentina02.mp3"
       ],
       [
+        "",
         "Argentina01.mp3"
       ]
     ],
@@ -113,6 +115,7 @@ jsonData=
     "culture": "Drogen, Kartelle, Pablo Escobar - Kolumbien ist viel mehr! ¡Colombia es mucho más!",
     "Audio": [
       [
+        "",
         "Colombia01.mp3"
       ]
     ],
@@ -162,6 +165,7 @@ jsonData=
     "culture": "Fidel Castro und Ernesto Che Guevara sind die wohl bekanntesten Repräsentanten des realsozialistischen Inselstaates in der Karibik, in dem es lange Zeit zwei Währungen gleichzeitig gab: den Peso Cubano und den Peso convertible.",
     "Audio": [
       [
+        "",
         "Cuba01.mp3"
       ]
     ],
@@ -213,6 +217,7 @@ jsonData=
     "culture": "Quito, die Hauptstadt des Andenstaates liegt auf einer Höhe von 2850 Metern. Zu Ecuador gehören auch die Galapagosinseln mit ihrer beindruckenden Fauna.",
     "Audio": [
       [
+        "",
         "Ecuador01.mp3"
       ]
     ],
