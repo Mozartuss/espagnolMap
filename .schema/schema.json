@@ -1,0 +1,1329 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "required": [
+    "ARG",
+    "BOL",
+    "CHL",
+    "COL",
+    "CRI",
+    "CUB",
+    "DOM",
+    "ECU",
+    "SLV",
+    "GTM",
+    "HND",
+    "MEX",
+    "NIC",
+    "PAN",
+    "PRY",
+    "PER",
+    "PRI",
+    "URY",
+    "VEN",
+    "ESP",
+    "BLZ",
+    "BRA",
+    "USA",
+    "DEU"
+  ],
+  "properties": {
+    "ARG": {
+      "type": "object",
+      "title": "The ARG schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "BOL": {
+      "type": "object",
+      "title": "The BOL schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "CHL": {
+      "type": "object",
+      "title": "The CHL schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "COL": {
+      "type": "object",
+      "title": "The COL schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "CRI": {
+      "type": "object",
+      "title": "The CRI schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "CUB": {
+      "type": "object",
+      "title": "The CUB schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "DOM": {
+      "type": "object",
+      "title": "The DOM schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "ECU": {
+      "type": "object",
+      "title": "The ECU schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "SLV": {
+      "type": "object",
+      "title": "The SLV schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "GTM": {
+      "type": "object",
+      "title": "The GTM schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "HND": {
+      "type": "object",
+      "title": "The HND schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "MEX": {
+      "type": "object",
+      "title": "The MEX schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "NIC": {
+      "type": "object",
+      "title": "The NIC schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "PAN": {
+      "type": "object",
+      "title": "The PAN schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "PRY": {
+      "type": "object",
+      "title": "The PRY schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "PER": {
+      "type": "object",
+      "title": "The PER schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "PRI": {
+      "type": "object",
+      "title": "The PRI schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "URY": {
+      "type": "object",
+      "title": "The URY schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "VEN": {
+      "type": "object",
+      "title": "The VEN schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "ESP": {
+      "type": "object",
+      "title": "The ESP schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "BLZ": {
+      "type": "object",
+      "title": "The BLZ schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "BRA": {
+      "type": "object",
+      "title": "The BRA schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "USA": {
+      "type": "object",
+      "title": "The USA schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    },
+    "DEU": {
+      "type": "object",
+      "title": "The DEU schema",
+      "default": {},
+      "required": [
+        "fillKey",
+        "Name",
+        "Country_flag",
+        "languages",
+        "culture",
+        "Audio",
+        "Video",
+        "Image",
+        "Description",
+        "Famous_people"
+      ],
+      "properties": {
+        "fillKey": {
+          "$ref": "#/definitions/fillKey"
+        },
+        "Name": {
+          "$ref": "#/definitions/Name"
+        },
+        "Country_flag": {
+          "$ref": "#/definitions/Country_flag"
+        },
+        "languages": {
+          "$ref": "#/definitions/languages"
+        },
+        "culture": {
+          "$ref": "#/definitions/culture"
+        },
+        "Audio": {
+          "$ref": "#/definitions/Audio"
+        },
+        "Video": {
+          "$ref": "#/definitions/Video"
+        },
+        "Image": {
+          "$ref": "#/definitions/Image"
+        },
+        "Description": {
+          "$ref": "#/definitions/Description"
+        },
+        "Famous_people": {
+          "$ref": "#/definitions/Famous_people"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "fillKey": {
+      "type": "string",
+      "title": "The fillKey schema",
+      "description": "Primary represent official language, secondary represent common language .",
+      "default": ""
+    },
+    "Name": {
+      "type": "string",
+      "title": "The Name schema",
+      "description": "Name of the country",
+      "default": ""
+    },
+    "Country_flag": {
+      "type": "string",
+      "title": "The Country_flag schema",
+      "description": "the file name in flag folder which to show the country flag",
+      "default": ""
+    },
+    "languages": {
+      "type": "string",
+      "title": "The languages schema",
+      "description": "Information about the spoken languages in the country",
+      "default": ""
+    },
+    "culture": {
+      "type": "string",
+      "title": "The culture schema",
+      "description": "Information about the culture"
+    },
+    "Audio": {
+      "type": "array",
+      "title": "The Audio schema",
+      "description": "A list of audio files to demonstrate the different dialects",
+      "default": [],
+      "example": [
+        [
+          "audiofile.mp3"
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "array",
+            "additionalItems": false,
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Video": {
+      "type": "array",
+      "title": "The Video schema",
+      "description": "A list of video files (in images directory) or shorted youtube links",
+      "default": [],
+      "example": [
+        [
+          "Video Title",
+          "Youtube link in this style !!!! -> https://youtu.be/57waq1HdllQ"
+        ],
+        [
+          "Title",
+          "VideoFile.mp4"
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "array",
+            "additionalItems": false,
+            "maxItems": 2,
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Image": {
+      "type": "array",
+      "title": "The Image schema",
+      "description": "List of images (path of file in image folder) shown in gallery.",
+      "default": [],
+      "example": [
+        "Image01.jpg",
+        "Image02.jpg"
+      ],
+      "additionalItems": true,
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "Description": {
+      "type": "string",
+      "title": "The Description schema",
+      "description": "Information about the country as plain text or HTML",
+      "default": ""
+    },
+    "Famous_people": {
+      "type": "string",
+      "title": "The Famous_people schema",
+      "description": "Information about famous peoples in the country",
+      "default": ""
+    }
+  }
+}
