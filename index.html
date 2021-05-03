@@ -134,28 +134,20 @@
                     const str = jsonData[geography.id]["Name"](',');
                     name = str[1] + " " + str[0]
                 }
-                // Wenn auf ein Land geklickt wird und bereits die rechte Infospalte offen ist.
                 if ($("#box #info").length > 0) {
-                    // Aktualisiere Infospalte
                     $('#country-info').html(getInfo(name, geography.id));
 
-                    // Lazyloading und Imageslider
                     observer.observe();
                     lazyLoadingImageSlider(geography);
 
                 } else {
-                    // Wenn auf ein Land geklickt wird und und die rechte Infospalte noch nicht offen ist.
-                    // Generiert Infospalte
                     $('#box').append(`<div id='info' class="info-box"><div id="test" style="overflow:hidden"><button type="button" class="close" onclick="closeInfo()">x</button></div><div id='country-info' >${getInfo(name, geography.id)}</div></div>`);
-                    // Verschiebt die Karte nach links
                     $('#map').css({"float": "left"});
-                    // Lazyloading und Imageslider
                     observer.observe();
                     lazyLoadingImageSlider(geography);
                 }
                 observer.observe();
             } else {
-                // Schließt Infospalte wenn auf ein nicht gehighlightetet Land geklickt wird
                 $('#info').remove();
                 $('#map').css("float", "")
             }
@@ -167,24 +159,22 @@
         });
     };
 
-    // Lädt die Informationen aus der Data.js und bastelt daraus HTML bausteine
     function getInfo(country, id) {
         const name = jsonData[id]["Name"];
         const flag = jsonData[id]["Country_flag"];
         const audio = jsonData[id]["Audio"];
-        const transcript = jsonData[id]["Transcript"];
         const images = jsonData[id]["Image"];
         const languages = jsonData[id]["languages"];
         const culture = jsonData[id]["culture"];
         const famous = jsonData[id]["Famous_people"];
         const video = jsonData[id]["Video"];
 
-        const videoPlayer = video && Array.isArray(video) ? getVideos(video) : "";
-        const audioPlayer = audio && Array.isArray(audio) ? getAudio(audio) : "";
+        const videoPlayer = video && Array.isArray(video) && video.length ? getVideos(video) : "";
+        const audioPlayer = audio && Array.isArray(audio) && audio.length ? getAudio(audio) : "";
         const languagesInfo = languages ? `<h3>Sprache</h3> ${languages} <br>` : "";
         const culureInfo = culture ? `<h3>Kultur</h3> ${culture} <br>` : "";
         const famousInfo = famous ? `<h3>Bekannte Persönlichkeiten</h3> ${famous} <br>` : "";
-        const imageGallery = images && Array.isArray(images) ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
+        const imageGallery = images && Array.isArray(images) && images.length ? `<br><br><div id="image-slider" class="splide center-text"> <div class="splide__track"><ul class="splide__list">${getImages(images)}</ul></div> <div class="splide__progress"><div class="splide__progress__bar"></div></div></div><br><br>` : "";
         return (`
             <h1 class='center-text'>${name}</h1>
             <div class="flag"><img class='center-text lozad' data-src="./data/Flag/${flag}" alt="${name} Flagge" /></div> <br>
@@ -196,7 +186,6 @@
             ${videoPlayer}`);
     }
 
-    // Baut den Imageslider
     function getImages(images) {
         let imageString = "";
         if (Array.isArray(images)) {
@@ -207,7 +196,6 @@
         return imageString
     }
 
-    // lädt die einzelnen Videos
     function getVideos(videos) {
         let videoString = "";
         if (Array.isArray(videos)) {
@@ -215,7 +203,7 @@
                 if (item[1].includes("https://you")) {
                     const x = item[1].split("/");
                     const embeded_link = `https://www.youtube.com/embed/${x[x.length - 1]}`;
-                    videoString += `<h3 class="center-text">${item[0]}</h3> <div class="resp-container"> <iframe class='center-text resp-iframe lozad' width="533.33" height="300" data-src="${embeded_link}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br>`
+                    videoString += `<h3 class="center-text">${item[0]}</h3> <div class="resp-container"> <iframe class='center-text resp-iframe lozad' width="533.33" height="300" data-src="${embeded_link}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br>`
                 } else {
                     videoString += `<h3 class="center-text">${item[0]}</h3><div class="resp-container"><video controls class="lozad resp-iframe center-text"> <source data-src="./data/Image/${item[1]}" ></video></div>`
                 }
