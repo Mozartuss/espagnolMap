@@ -14,7 +14,6 @@ jsonData=
         "Argentina01.mp3"
       ]
     ],
-    "Transcript": "",
     "Video": [
       [
         "Argentina es diversidad",
@@ -64,7 +63,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
     "culture": "Bolivien ist nicht nur bekannt für seine kulturelle Vielfalt - im Land werden 36 verschiedene Sprachen gesprochen - sondern auch für seine landschaftlichen Kontraste - von den Gebirgsketten der Anden über die unwirtliche Wüste Gran Chaco bis hin zum tropischen Amazonasbecken.",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Impresiones de Bolivia",
@@ -87,7 +85,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Chile - das schmalste Land der Welt hat viel zu bieten.",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Chile es aventura",
@@ -119,7 +116,6 @@ jsonData=
         "Colombia01.mp3"
       ]
     ],
-    "Transcript": "",
     "Video": [
       [
         "Salsa Colombia",
@@ -148,7 +144,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Costa Rica ist eines der wenigen Länder in Lateinamerika, das über eine sehr stabile Wirtschaft und politische Verwaltung verfügt. Außerdem ist es Vorreiter in Sachen nachhaltige Energieerzeugung: Das Land gewinnt nahezu seine gesamte Energie aus erneuerbaren Energiequellen.",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Costa Rica - animales, playa, naturalzea",
@@ -170,7 +165,6 @@ jsonData=
         "Cuba01.mp3"
       ]
     ],
-    "Transcript": "",
     "Video": [
       [
         "Chan Chan",
@@ -204,7 +198,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Der zu den großen Antillen gehörende Inselstaat ist ein beliebtes Reiseziel.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "DomRep01.jpg"
@@ -223,7 +216,6 @@ jsonData=
         "Ecuador01.mp3"
       ]
     ],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Ecuador01.jpg",
@@ -240,7 +232,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "El Salvador ist bekannt für seine Jugendbanden, die sogenannten Maras. Sie sind ein Grund für Migrationsströme aus Süd- und Mittelamerika in Richtung der USA.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "elsalvadormaras.jpg"
@@ -255,7 +246,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "In Guatemala gibt es einen Wasserfall namens Cascada del Paraíso. Über den Wasserfall stürzt heißes Thermalwasser herab und trifft auf einen kalten Fluss. Wenn man also an den Fuß des Wasserfalls schwimmt, steht man hüfthoch in kaltem Wasser, während von oben eine heiße Dusche kommt.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Guatemala01.jpg",
@@ -271,7 +261,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Tanz Punta",
@@ -289,7 +278,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch; zahlreiche indigene Nationalsprachen",
     "culture": "Mexiko ist besonders reich an kulturellen Stätten der Maya und Azteken.",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Gesten im Spanischen",
@@ -326,7 +314,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Das Land ohne Strassennamen - Wie das funktionieren kann? Statt einer genauen Adresse nennt man zunächst ein allgemein bekanntes Objekt – z.B. eine Kirche – und die Anzahl der Blocks, die man von da aus in eine bestimmte Himmelsrichtung zu gehen hat.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Nicaragua01.jpg"
@@ -341,7 +328,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Panama ist nicht nur schön - das wusste ja schon Janosch - sondern verbindet durch den Panamakanal zwei Weltmeere. Der künstlich angelegte, ca. 80 km lange Kanal verkürzt den Seeweg von New York nach Los Angeles um fast 15000 km.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Panama01.jpg",
@@ -359,7 +345,6 @@ jsonData=
     "languages": "Amtssprachen: Spanisch und Guaraní",
     "culture": "Im Dreiländereck Brasilien, Argentinien und Paraguay befinden sich die berühmten Cataratas del Iguazú",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Las Cataratas del Iguazú",
@@ -377,7 +362,6 @@ jsonData=
     "languages": "Amtssprachen: Spanisch, Quechua, Aymara",
     "culture": "In Peru befindet sich die weltberühmte Ruinenstadt der Inka - Machu Picchu",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "",
@@ -400,7 +384,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch und Englisch",
     "culture": "Puerto Rico ist ein Außengebiet der USA in der Karibik. Die Bewohner Puerto Ricos besitzen zwar die US-Staatsbürgerschaft, dürfen aber nicht an den Präsidentschaftswahlen in den USA teilnehmen.",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Luis Fonsi",
@@ -418,7 +401,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch",
     "culture": "Uruguay ist das kleinste spanischsprachige Land Südamerikas und gleichzeitig eines der sichersten, politisch stabilsten und wohlhabendsten. Kurios: Uruguay verkaufte als erstes Land weltweit staatlich angebautes Cannabis offiziell in Apotheken. Dahinter steckte die Absicht, den Drogenkartellen einen Teil ihrer Einnahmequellen streitig zu machen.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Uruguay01.jpg"
@@ -433,7 +415,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch; zahlreiche regionale indigene Amtssprachen",
     "culture": "Venezuela besitzt mehr Öl als jedes andere Land der Welt. Dennoch lebt ein Großteil der Bevölkerung in Armut.",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Venezuela01.jpg"
@@ -448,7 +429,6 @@ jsonData=
     "languages": "Amtssprache: Spanisch; regionale Amtssprachen: Katalanisch, Baskisch, Galicisch",
     "culture": "Siesta, Flamenco, Paella, Tapas, Mallorca, Sherry, Jamón Ibérico, Barcelona, Madrid - wir wissen alle schon viel über Spanien. Aber um ein Land wirklich kennenlernen zu können, muss man die Landessprache beherrschen. Fangen wir am besten gleich mit einem kleinen Dialog an. Im ersten Video lernst du, wie man sich auf Spanisch vorstellt. Los gehts!",
     "Audio": [],
-    "Transcript": "",
     "Video": [
       [
         "Sich vorstellen",
@@ -557,7 +537,6 @@ jsonData=
     "languages": "Amtssprache: Englisch; Spanisch ist sehr weit verbreitet",
     "culture": "",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [],
     "Description": "",
@@ -570,7 +549,6 @@ jsonData=
     "languages": "Amtssprache: Portugiesisch; Kommunikation auf Spanisch möglich",
     "culture": "",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [],
     "Description": "",
@@ -583,7 +561,6 @@ jsonData=
     "languages": "<p>Amtssprache: Englisch; weit verbreitete Sprache: Spanisch</p> <p>Mit weit &uuml;ber <strong>60 Millionen Spanischsprechenden</strong>, sind die Vereinigten Staaten das Land mit den zweitmeisten Spanischsprechenden weltweit - Tendenz stark steigend.</p>",
     "culture": "",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "USA01.jpg"
@@ -598,7 +575,6 @@ jsonData=
     "languages": "Amtssprache: Deutsch; beliebte Fremdsprache: Spanisch",
     "culture": "<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong><span style=\"font-size:16px;line-height:106%;\">Spanisch lernen und die Welt entdecken</span></strong></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanisch wird in weit mehr als 20 L&auml;ndern gesprochen. Mehr als 400 Millionen Menschen sprechen Spanisch als Muttersprache. Insgesamt gibt es weltweit &uuml;ber 500 Millionen Spanischsprechende, somit ist Spanisch eine der meist gesprochenen Sprachen weltweit.</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Da Spanisch in vielen verschiedenen L&auml;ndern und Regionen gesprochen wird, existiert eine Vielzahl von Dialekten und Variet&auml;ten des Spanischen, die Elemente der jeweiligen Kultur widerspiegeln.</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">&nbsp;</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><strong><span style=\"font-size:15px;line-height:106%;\">Spanisch am Gymnasium bei St. Anna</span></strong></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanisch ist seit Jahren eine der beliebtesten Fremdsprachen am &bdquo;Anna&ldquo;. Die stabil hohen Sch&uuml;lerzahlen erm&ouml;glichen die Weiterf&uuml;hrung von Spanisch in der Oberstufe (bisher immer ohne eine Zusammenlegung von Q11 mit Q12) bis hin zum Abitur.<br>&nbsp;Im Unterricht ist es uns besonders wichtig, dass die Sch&uuml;lerInnen lernen, die Sprache zu sprechen und anzuwenden.&nbsp;</span></p><ul style=\"margin-bottom:0cm;margin-top:0cm;\" type=\"disc\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Fachschaft: Frau H&ouml;rl (Seminarleiterin) und Hr. Hubmann (Fachschaftsleiter)</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Austausch mit Vitoria-Gasteiz (Baskenland) &ndash; Onlineprojekt mit der Austauschschule im Lockdown &ndash; 2019 Fahrt nach Madrid</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Fokus im Unterricht: Kommunikation</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Strategien f&uuml;r effektives Lernen, Lesen, H&ouml;ren, Schreiben, Sprechen</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Sch&uuml;leraktivierung durch Projektarbeit, Videokonferenzen, Pr&auml;sentationen, Foto-Stories, Filme drehen, Wettbewerbe, &hellip;</span></li></ul><div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'> <ul style=\"margin-bottom:0cm;list-style-type: disc;\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"line-height:106%;font-family:Calibri;font-size:11.5pt;\">Im Spanischunterricht behandeln wir nicht nur Spanien, sondern lernen auch die kulturelle Vielfalt zahlreicher L&auml;nder S&uuml;d- und Mittelamerikas kennen</span></li></ul></div><ul style=\"margin-bottom:0cm;margin-top:0cm;\" type=\"disc\"> <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Benotung: viele echte m&uuml;ndliche Noten, kurze Tests, kurze Schulaufgaben, H&ouml;r- und Leseverstehenstests</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Spanischseminar: junge, engagierte Referendare &ndash; Betreuung durch die Stammlehrkr&auml;fte &ndash; kaum Stundenausfall &ndash; kleinere Lerngruppen</span></li><li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:15px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:15px;line-height:106%;\">Abitur &ndash; sehr beliebtes Abiturfach (schriftliches Abitur und Kolloquium)</span></li></ul>",
     "Audio": [],
-    "Transcript": "",
     "Video": [],
     "Image": [
       "Deutschland_spanischunterricht00.png",
