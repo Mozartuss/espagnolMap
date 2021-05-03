@@ -5,3 +5,5 @@
 Diese Webseite visualisiert die Verbreitung der spanischen Sprache auf der Welt, und liefert Informationen zu den einzelnen Ländern. 
 
 Hier gehts zur Webseite >> [LINK](https://mozartuss.github.io/espagnolMap/) <<
+
+Hier gibt es eine Anleitung wie die Daten geändert werden können >> [KLICK](manual/manual_de.md)<<
