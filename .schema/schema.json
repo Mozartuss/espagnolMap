@@ -1245,8 +1245,8 @@
       "default": [],
       "example": [
         [
-          "Titel (optional)",
-          "audiofile.mp3"
+          "Title (optional)",
+          "audio_file.mp3"
         ]
       ],
       "additionalItems": true,
