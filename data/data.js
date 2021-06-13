@@ -139,7 +139,9 @@ jsonData=
       "Kolumbien03.jpg",
       "Kolumbien04.jpg",
       "Kolumbien05.jpg",
-      "Kolumbien06.jpg"
+      "Kolumbien06.jpg",
+	  "Kolumbien07.jpg",
+	  "Kolumbien08.jpg"
     ],
     "Description": "",
     "Famous_people": "Juanes, Shakira, Gabriel García Márquez"
