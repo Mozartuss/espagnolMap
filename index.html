@@ -216,13 +216,13 @@
         let audioString = "";
         if (Array.isArray(audios)) {
             audios.forEach((item) => {
-                if (item[0] === "" || item[1] == null) {
-                    audioString += `<audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${item}" type="audio/${item.toString().split(".").slice(-1)[0]}"></audio><br>`
-                } else {
-                    audioString += `<h3 class="center-text">${item[0]}</h3> <audio class="center-text" controls style="width: 90%; "> <source src="./data/dialectAudio/${item[1]}" type="audio/${item[1].toString().split(".").slice(-1)[0]}"></audio>`;
-                }
+                const title = item[0];
+                const file_path = item[1];
+                audioString += `<h3 class="center-text">${title}</h3> <audio class="center-text" controls style="width: 90%;"> <source src="./data/dialectAudio/${file_path}" type="audio/${file_path.toString().split(".").slice(-1)[0]}"></audio>`;
+
             })
         }
+        console.log(audioString)
         return audioString
     }
 
